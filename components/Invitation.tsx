@@ -21,7 +21,7 @@ function getRemaining(): Remaining {
   };
 }
 
-const calendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(`${wedding.groom} & ${wedding.bride} To‘yi`)}&dates=20261018T130000Z/20261018T180000Z&details=${encodeURIComponent("Samar va Madinaning to‘y marosimi")}&location=${encodeURIComponent(`${wedding.venue}, ${wedding.city}`)}`;
+const calendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(`${wedding.groom} & ${wedding.bride} To‘yi`)}&dates=20261018T130000Z/20261018T180000Z&details=${encodeURIComponent("Samar va Maxliyoning to‘y marosimi")}&location=${encodeURIComponent(`${wedding.venue}, ${wedding.city}`)}`;
 
 function Ornament() {
   return <span className="ornament" aria-hidden="true">✦ ✧ ✦</span>;
@@ -228,7 +228,7 @@ export default function Invitation() {
       </button>
 
       <section className="hero" ref={heroRef}>
-        <Image priority fill sizes="100vw" src={gallery[0]} alt="Samar va Madina to‘y fotosurati" className="hero-image" />
+        <Image priority fill sizes="100vw" src={gallery[0]} alt="Samar va Maxliyo to‘y fotosurati" className="hero-image" />
         <div className="hero-shade" />
         <div className="hero-ring" aria-hidden="true" />
         <div className="hero-content">

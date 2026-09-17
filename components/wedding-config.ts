@@ -1,6 +1,6 @@
 export const wedding = {
   groom: "Samar",
-  bride: "Madina",
+  bride: "Maxliyo",
   date: "2026-10-18",
   displayDate: "18 October 2026",
   time: "18:00",
